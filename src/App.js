@@ -4,6 +4,8 @@ const TodoApp = () => {
   const [tasks, setTasks] = useState([]);
   const [newTask, setNewTask] = useState('');
 
+  //i added new feature
+
   const addTask = () => {
     if (newTask.trim() !== '') {
       setTasks([...tasks, newTask]);
